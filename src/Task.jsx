@@ -130,7 +130,11 @@ const Task = () => {
                 </motion.div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-6  p-2">
+            <motion.div
+              style={{ opacity: "0", transition: "3s all" }}
+              whileInView={{ opacity: 1 }}
+              className="col-sm-12 col-md-12 col-lg-6  p-2"
+            >
               <p
                 style={{
                   backgroundColor: "#0b2545",
@@ -183,7 +187,7 @@ const Task = () => {
                   Careers
                 </button>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
