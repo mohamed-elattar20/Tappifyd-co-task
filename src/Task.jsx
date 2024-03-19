@@ -1,5 +1,5 @@
-// import { img1 } from "./assets/imgs/Explorer-644x750";
-// import { img2 } from "./assets/imgs/sphere-white";
+import img1 from "./assets/imgs/Explorer-644x750.jpg";
+import img2 from "./assets/imgs/sphere-white.png";
 import { motion } from "framer-motion";
 import "./Task.css";
 
@@ -28,8 +28,8 @@ const Task = () => {
                       transition: ".3s all",
                     }}
                     className="position-absolute"
-                    // src={img1}
-                    src={"../public/Explorer-644x750.jpg"}
+                    src={img1}
+                    // src={"../public/Explorer-644x750.jpg"}
                     alt=""
                   />
                   <motion.img
@@ -47,8 +47,8 @@ const Task = () => {
                       transition: ".3s all",
                     }}
                     className="position-absolute"
-                    // src={img2}
-                    src={"../public/sphere-white.png"}
+                    src={img2}
+                    // src={"../public/sphere-white.png"}
                     alt=""
                   />
                 </figure>
